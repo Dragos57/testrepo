@@ -8,7 +8,7 @@ var i = 0;
 var noOfShelfs;
 
 $(document).ready(function() {
-    dir = "resources/books/";
+    dir = "img/books/";
     shelfWidth = $("#firstshelf").width();
     divided = shelfWidth/86; //bookWidth = 86px;    
     noOfBooks = parseInt(divided) - 1;
