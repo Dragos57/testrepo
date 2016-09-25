@@ -1,0 +1,36 @@
+div[class*="col-"] {
+  background: rgb(0, 0, 0, .0); 
+  text-align: center;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.row {
+  background-image: url('../resources/raft1.png');
+  background-size: 100% 100%;
+}       
+
+.topshelf {
+  background-image: url('../resources/action_bar_texture.png');
+  background-size: 100% 100%;
+
+}
+
+.lapusneanul {
+     background-image: url('../resources/alexandru_lapusneanul.png');
+  background-size: 100% 100%;   
+}
+
+.book {
+    padding: 0 14 0 0px;
+    margin: 0 0 -5px 2px;
+}
+
+.shelf {
+    border-bottom: 30px solid #A1A194;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: -15px;
+    z-index: -1;
+}
